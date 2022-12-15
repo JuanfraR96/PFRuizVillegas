@@ -53,29 +53,36 @@
         </nav>
     </header>
     <main>
+        <div class="divImage">
+            <img src="../assets/images/maderita.jpeg" alt="Fondo madera">
+        </div>
+        <div class="container-fluid texto">
         <h2>FORMAS DE CONTACTARNOS</h2>
         <p>Estimado Cliente, si necesita contactarnos por cualquier motivo, complete la siguiente informacion e introduzca su duda. Un operador se comunicara lo antes posible</p>
-            <form"> 
-                <div>
+       
+            <form> 
+                <div class="Formulario">
                     <input type="text" placeholder="Nombre*" required> 
                </div> 
-               <div>      
+               <div class="Formulario">      
                     <input type="text" placeholder="Apellido*" required>
                 </div> 
-                <div>       
+                <div class="Formulario">       
                     <input type="email" placeholder="Email*" required>
                 </div> 
-                <div>            
-                    <input type="text" placeholder="Consulta" required>
-                </div>
-                <div>
+                <div class="Formulario">
+                    <textarea placeholder="Consulta" id="floatingTextarea2"></textarea>
+                  </div>
+                <div class="Formulario">
                     <label for="">Recibir novedades</label>
                     <input type="checkbox">
                 </div>
-                <div>
-                    <input type="submit" value="Enviar">
+                <div class="gap-2 col-3 Formulario">
+                    <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
             </form>
+           
+        </div>
     </main>
     <footer class="pie">
         <div class="pieDiv">
@@ -87,6 +94,7 @@
             <a class="pieDivFacebook" title="Facebook" href="https://www.facebook.com/ummu.mercadonatural"  target="_blank">
                 <img class="pieDivFacebookImagen" src="../assets/images/facebook.png" alt="Facebook"></a>
         </div>
+    </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>

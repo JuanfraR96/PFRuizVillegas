@@ -1,17 +1,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 header .navbar {
-  margin-bottom: 1rem; }
-
+  margin-bottom: 1rem;
+}
 header .bgBlack {
   background-color: black;
-  color: whitesmoke; }
-
+  color: whitesmoke;
+}
 header .colorNavBar {
-  color: aliceblue; }
+  color: aliceblue;
+}
 
 main .divImage {
   position: fixed;
@@ -21,74 +23,82 @@ main .divImage {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -1;
-  filter: brightness(30%); }
-  main .divImage .frenteUmmu {
-    filter: brightness(40%); }
-  main .divImage .ubicacionCarrusel {
-    text-align: center; }
-
+  filter: brightness(30%);
+}
+main .divImage .frenteUmmu {
+  filter: brightness(40%);
+}
+main .divImage .ubicacionCarrusel {
+  text-align: center;
+}
 main .columna {
   color: whitesmoke;
-  align-items: center; }
-
+  align-items: center;
+}
 main .featurette-divider {
   margin: 2.5rem;
-  color: bisque; }
-
+  color: bisque;
+}
 main .mapa {
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem; }
-
+  margin-bottom: 0.5rem;
+}
 main .imagenColumna {
   width: 400px;
-  height: 400px; }
-
+  height: 400px;
+}
 main .texto {
-  color: whitesmoke; }
-
+  color: whitesmoke;
+}
 main .Formulario {
-  margin-top: 1rem; }
-
+  margin-top: 1rem;
+}
 main .ImagenQS {
   margin-top: 3rem;
   margin-bottom: 100px;
   margin-left: 300px;
-  margin-right: 300px; }
-
+  margin-right: 300px;
+}
 main .ImagenP {
   height: auto;
   width: auto;
   max-width: 600px;
   max-height: 600px;
-  margin-bottom: 1rem; }
-
+  margin-bottom: 1rem;
+}
 main .ImagenC {
   width: auto;
   height: auto;
   max-height: 600px;
-  max-width: 600px; }
+  max-width: 600px;
+}
 
 footer {
   background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   text-align: center;
-  margin-top: 1rem; }
-  footer .pieDivTexto {
-    color: whitesmoke;
-    padding-bottom: 0.25rem; }
-  footer .pieDivWhatsappImagen {
-    display: inline-block;
-    height: 2rem;
-    width: 2rem; }
-  footer .pieDivInstagramImagen {
-    display: inline-block;
-    height: 2rem;
-    width: 2rem; }
-  footer .pieDivFacebookImagen {
-    display: inline-block;
-    height: 2rem;
-    width: 2rem; }
+  margin-top: 1rem;
+}
+footer .pieDivTexto {
+  color: whitesmoke;
+  padding-bottom: 0.25rem;
+}
+footer .pieDivWhatsappImagen {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+}
+footer .pieDivInstagramImagen {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+}
+footer .pieDivFacebookImagen {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+}
 
 /*
 .cabeceraPrincipal{
@@ -145,4 +155,4 @@ header nav a{
     margin-bottom: 0.5rem;
 }
 
-*/
+*//*# sourceMappingURL=styles.css.map */
