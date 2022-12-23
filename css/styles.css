@@ -26,7 +26,7 @@ header .colorNavBar {
 .container-secundario {
   background-image: url("../assets/images/maderita.jpeg");
   padding-bottom: 1rem;
-  height: 100vh; }
+  height: 80vh; }
 
 main {
   font-family: 'DM Sans', sans-serif; }
@@ -83,16 +83,10 @@ main {
     font-family: sans-serif;
     color: whitesmoke;
     align-items: center;
-    margin-right: 5rem;
-    margin-left: 5rem;
-    padding: 3rem 0 3rem 0;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding: 3rem 0 0 0;
     border-radius: 2em; }
-  main .mapa-texto {
-    background-color: rgba(154, 140, 152, 0.5);
-    margin-bottom: 20rem;
-    padding-top: 4rem;
-    padding-left: 2rem;
-    border-radius: 2rem; }
   main .mapa-google {
     border-radius: 1rem; }
   main .featurette-divider {
@@ -106,17 +100,19 @@ main {
   main .texto {
     color: whitesmoke;
     padding: 2rem 2rem 0rem 2rem; }
+  main .texto1 {
+    width: 100vw;
+    text-align: center; }
   main .Formulario {
     margin-top: 1rem; }
-  main .ImagenQS {
+  main .imagenQS {
     margin-top: 3rem;
     margin-bottom: 100px;
-    margin-left: 300px;
-    margin-right: 300px; }
+    width: 80vw; }
   main .ImagenP {
     height: auto;
     width: auto;
-    max-width: 600px;
+    max-width: 80vw;
     max-height: 600px;
     margin-bottom: 1rem; }
 
