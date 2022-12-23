@@ -5,10 +5,15 @@
     box-sizing: border-box;
 }
 header{
-    .navbar{
-        height: 11vh;
-        
-    }
+    .navbar {
+        height: 15vh; 
+        z-index: 999;
+        padding-top: 0!important;
+        background-color: black!important;
+        .menu-opciones {
+            background-color: black!important;
+          }
+      }
     .bgBlack{
         background-color: black;
         color: whitesmoke;
@@ -16,7 +21,7 @@ header{
     .colorNavBar{
         color: aliceblue;
     }
-
+   
 }
 .container-principal {
     background-image: url('../assets/images/maderita.jpeg');
